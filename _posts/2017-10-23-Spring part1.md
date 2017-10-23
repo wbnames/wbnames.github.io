@@ -17,4 +17,4 @@ tags: [spring]
 
 
 # spring data redis
-![Alt text](../../../../../assets/images/JJJtTTT.jpg)
+(https://wbnames.github.io/assets/images/JJJtTTT.jpg)
