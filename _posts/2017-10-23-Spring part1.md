@@ -17,4 +17,4 @@ tags: [spring]
 
 
 # spring data redis
-![avatar](/ assets / images /JJJtTTT.jpg)
+![image](https://wbnames/wbnames.github.io/assets/images/JJJtTTT.jpg)
