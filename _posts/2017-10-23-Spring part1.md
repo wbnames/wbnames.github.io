@@ -17,4 +17,4 @@ tags: [spring]
 
 
 # spring data redis
-![sss](../../assets/images/JJJtTTT.jpg)
+![sss](../../../assets/images/JJJtTTT.jpg)
