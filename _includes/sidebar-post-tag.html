@@ -1,11 +1,11 @@
-<h3 class="sidebar-title">Blog Categories</h3>
+<h3 class="sidebar-title">Blog view</h3>
 <div id="blog-categories">
     <ul class="list-group">
         {% for category in site.categories %}
         <li class="list-group-item">
-            <a href="http://wbnames.github.io/blog#{{ category | first }}">
+            <b href="http://wbnames.github.io/blog#{{ category | first }}">
                 {{ category | first }}
-            </a>
+            </b>
              <span class="badge">{{ category[1].size }}</span>
         </li>
     {% endfor %}
