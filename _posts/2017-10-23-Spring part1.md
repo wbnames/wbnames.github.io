@@ -17,4 +17,4 @@ tags: [spring]
 
 
 # spring data redis
-!(https://wbnames/wbnames.github.io/assets/images/JJJtTTT.jpg)
+![ss](https://wbnames/wbnames.github.io/assets/images/JJJtTTT.jpg)
