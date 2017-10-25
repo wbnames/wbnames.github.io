@@ -9,7 +9,7 @@ tags: [spring]
 
 ### pom文件配置
 
-<!--druid连接池-->
+druid连接池
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
