@@ -4,19 +4,8 @@ title: 关于druid连接池基于spring的配置
 category: spring
 tags: [spring]
 ---
+# druid连接池基于spring配置
 
-# spring part 1
-
-
-
-# spring boot
-
-
-
-# spring data jpa
-
-
-# spring data redis
 ## druid连接池基于spring配置
 
 ### pom文件配置
