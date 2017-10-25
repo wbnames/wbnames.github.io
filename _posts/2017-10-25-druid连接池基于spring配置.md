@@ -19,7 +19,7 @@ tags: [spring]
 需要版本请去 https://github.com/alibaba/druid 
 查看自己需要的版本
 
-# 关于sql监控web.xml配置
+## 关于sql监控web.xml配置
 
 <!-- -->
      <servlet>
@@ -31,7 +31,7 @@ tags: [spring]
           <url-pattern>/druid/*</url-pattern>
      </servlet-mapping>
 
-# 基于spring管理的连接池配置
+## 基于spring管理的连接池配置
 
 细节:durid 是通过url来自动识别你的 驱动url的 不同于其他连接池
 
