@@ -1,15 +1,13 @@
 ---
 layout: post
-title: 关于druid连接池基于spring的配置
+title: druid基于spring的配置
 category: spring
 tags: [spring]
 ---
 
-# druid连接池基于spring配置
+# druid基于spring的配置
 
-## druid连接池基于spring配置
 
-### pom文件配置
 
 ```	
         <dependency>
@@ -103,6 +101,5 @@ c3p9 基于spring 配置
 ### 其他功能 请见 以下地址   配置方式基本相同
 
 https://github.com/alibaba/druid/wiki/FAQ
-
 
 
