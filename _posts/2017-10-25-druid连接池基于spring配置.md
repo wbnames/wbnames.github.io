@@ -7,8 +7,7 @@ tags: [spring]
 
 # druid基于spring的配置
 
-
-
+## pom文件
 ```	
         <dependency>
             <groupId>com.alibaba</groupId>
