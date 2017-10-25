@@ -8,20 +8,15 @@ tags: [spring]
 ## druid连接池基于spring配置
 
 ### pom文件配置
-
-druid连接池
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.1.4</version>
         </dependency>
-
 需要版本请去 https://github.com/alibaba/druid 
 查看自己需要的版本
 
 ### 关于sql监控web.xml配置
-
-<!-- -->
      <servlet>
            <servlet-name>DruidStatView</servlet-name>
            <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
@@ -30,7 +25,6 @@ druid连接池
            <servlet-name>DruidStatView</servlet-name>
           <url-pattern>/druid/*</url-pattern>
      </servlet-mapping>
-
 ### 基于spring管理的连接池配置
 
 细节:durid 是通过url来自动识别你的 驱动url的 不同于其他连接池
