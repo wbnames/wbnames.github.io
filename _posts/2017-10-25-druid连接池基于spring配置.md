@@ -8,6 +8,7 @@ tags: [spring]
 # druid基于spring的配置
 
 ## pom文件
+
 ```	
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -19,6 +20,7 @@ tags: [spring]
 查看自己需要的版本
 
 ### 关于sql监控web.xml配置
+
 ```
      <servlet>
            <servlet-name>DruidStatView</servlet-name>
@@ -29,6 +31,7 @@ tags: [spring]
           <url-pattern>/druid/*</url-pattern>
      </servlet-mapping>
 ```
+
 ### 基于spring管理的连接池配置
 
 细节:durid 是通过url来自动识别你的 驱动url的 不同于其他连接池
@@ -76,6 +79,7 @@ c3p9 基于spring 配置
 	</bean> -->
 ```
 ### sql监控功能 以及 如何打开自带sql监控页面
+
 ```
        <servlet>
     <servlet-name>DruidStatView</servlet-name>
@@ -97,6 +101,7 @@ c3p9 基于spring 配置
     </init-param>
        </servlet>	
 ```
+
 ### 其他功能 请见 以下地址   配置方式基本相同
 
 https://github.com/alibaba/druid/wiki/FAQ
