@@ -5,7 +5,7 @@ category: spring
 tags: [spring]
 ---
 
-# 关于druid连接池基于spring的配置
+# druid连接池基于spring配置
 # ======
 pom 文件
 
