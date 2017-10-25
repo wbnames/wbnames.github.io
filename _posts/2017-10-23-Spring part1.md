@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Spring部分总结
-category: spring
-tags: [spring]
+category: Spring
+tags: [Spring]
 ---
 
 # spring part 1
