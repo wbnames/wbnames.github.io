@@ -67,8 +67,8 @@ druid连接池
 
 ### 项目初期用的C3P0连接池 
 
-#### 配置对比
-##### c3p9 基于spring 配置
+配置对比
+c3p9 基于spring 配置
 
 	<!-- <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
