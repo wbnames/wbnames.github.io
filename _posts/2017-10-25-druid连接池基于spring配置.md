@@ -1,11 +1,11 @@
 ---
 layout: post
-title: druid连接池基于spring的配置
+title: 关于druid连接池基于spring的配置
 category: spring
 tags: [spring]
 ---
 
-# druid连接池基于spring配置
+## druid连接池基于spring配置
 
 ### pom文件配置
 
@@ -19,7 +19,7 @@ druid连接池
 需要版本请去 https://github.com/alibaba/druid 
 查看自己需要的版本
 
-## 关于sql监控web.xml配置
+### 关于sql监控web.xml配置
 
 <!-- -->
      <servlet>
@@ -31,7 +31,7 @@ druid连接池
           <url-pattern>/druid/*</url-pattern>
      </servlet-mapping>
 
-## 基于spring管理的连接池配置
+### 基于spring管理的连接池配置
 
 细节:durid 是通过url来自动识别你的 驱动url的 不同于其他连接池
 
@@ -61,11 +61,11 @@ druid连接池
 	</bean>
 
 
-## 手动管理druid连接池配置
+### 手动管理druid连接池配置
 
 略..  提示: 把bean==new
 
-## 项目初期用的C3P0连接池 
+### 项目初期用的C3P0连接池 
 
 #### 配置对比
 ##### c3p9 基于spring 配置
@@ -77,7 +77,7 @@ druid连接池
 		<property name="password" value="root" />
 	</bean> -->
 
-## sql监控功能 以及 如何打开自带sql监控页面
+### sql监控功能 以及 如何打开自带sql监控页面
 
        <servlet>
     <servlet-name>DruidStatView</servlet-name>
@@ -99,10 +99,9 @@ druid连接池
     </init-param>
        </servlet>	
 
-##### 其他功能 请见 以下地址   配置方式基本相同
+### 其他功能 请见 以下地址   配置方式基本相同
 
 https://github.com/alibaba/druid/wiki/FAQ
 
-## 
 
 
