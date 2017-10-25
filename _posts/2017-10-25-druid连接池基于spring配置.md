@@ -5,9 +5,10 @@ category: spring
 tags: [spring]
 ---
 
-# druid连接池基于spring配置
+## druid连接池基于spring配置
 
-pom 文件
+### pom文件配置
+
 <!--druid连接池-->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -18,7 +19,7 @@ pom 文件
 需要版本请去 https://github.com/alibaba/druid 
 查看自己需要的版本
 
-# 关于sql监控的配置
+# 关于sql监控web.xml配置
 
 <!-- -->
      <servlet>
