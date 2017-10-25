@@ -6,9 +6,8 @@ tags: [spring]
 ---
 
 # druid连接池基于spring配置
-# ======
-pom 文件
 
+pom 文件
 <!--druid连接池-->
         <dependency>
             <groupId>com.alibaba</groupId>
