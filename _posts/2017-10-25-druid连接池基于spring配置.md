@@ -1,13 +1,13 @@
 ---
 layout: post
 title: 关于druid连接池基于spring的配置
-category: spring
-tags: [spring]
+category: Spring
+tags: [Spring]
 ---
 
 # 关于druid连接池基于spring的配置
 
-pom 文件
+## pom 文件
 
 <!--druid连接池-->
         <dependency>
@@ -33,7 +33,7 @@ pom 文件
 
 ## 基于spring管理的连接池配置
 
-### 细节:durid 是通过url来自动识别你的 驱动url的 不同于其他连接池
+细节:durid 是通过url来自动识别你的 驱动url的 不同于其他连接池
 
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
 		<property name="url" value="jdbc:oracle:thin:@192.168.131.128:1521:ORCL" />
@@ -63,12 +63,12 @@ pom 文件
 
 ## 手动管理druid连接池配置
 
-### 略..  提示: 把bean==new
+略..  提示: 把bean==new
 
 ## 项目初期用的C3P0连接池 
 
-#### 配置对比
-##### c3p9 基于spring 配置
+### 配置对比
+### c3p9 基于spring 配置
 
 	<!-- <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
@@ -99,9 +99,9 @@ pom 文件
     </init-param>
        </servlet>	
 
-##### 其他功能 请见 以下地址   配置方式基本相同
+## 其他功能 请见 以下地址   配置方式基本相同
 
-### https://github.com/alibaba/druid/wiki/FAQ
+https://github.com/alibaba/druid/wiki/FAQ
 
 
 
