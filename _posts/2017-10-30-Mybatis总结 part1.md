@@ -7,8 +7,6 @@ tags: [Mybatis]
 
 # Mybatis #
 
-## Mybatis part1 ##
-
  Mybatis 本身是apache的一个开源项目 iBatis 10年从googlecode上
 后13年 迁移到github上  跟名 Mybatis 持久层框架
 (Mybatis 几乎避免了 所有JDBC的代码 和 手动设置参数以及获取结果集  )
