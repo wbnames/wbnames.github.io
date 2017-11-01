@@ -1,21 +1,20 @@
 ---
 layout: post
-title: Mybatis总结part1
-category: mybatis
-tags: [mybatis]
+title: Mybatis部分总结part1
+category: Mybatis
+tags: [Mybatis]
 ---
 
-# Mybatis part 1
+# Mybatis #
 
-## INC
+## Mybatis part1 ##
 
-Mybatis 本身是apache的一个开源项目 iBatis 10年从googlecode上
+ Mybatis 本身是apache的一个开源项目 iBatis 10年从googlecode上
 后13年 迁移到github上  跟名 Mybatis 持久层框架
 (Mybatis 几乎避免了 所有JDBC的代码 和 手动设置参数以及获取结果集  )
 (注意:  这里的几乎  表示说明还是不是很完善)
 
 ## Mybatis 和 hibernate的区别
-
 1:hibernate对jdbc的封装更加彻底, 我们开发周期更短
 mybatis相对封装比较轻量化,, sql语句必须我们自己编写 <br>
 
@@ -52,7 +51,9 @@ C:selectOne和selectList调用时机
 根据接口返回类型规定, 如果返回类型是单个对象调动selectOne  <br>
 如果返回类型是list对象, 调用selectList方法
 
-## 简单使用以及使用流程 - 环境搭建
+
+# 简单使用以及使用流程
+## 1 环境搭建
 
 jar包   以及 配置文件
 entity,model,javabean,vo,do,pojo
@@ -62,14 +63,13 @@ SqlMapConfig.xml核心配置文件 <br>
 以及 映射文件 <br>
 
 ## 配置文件导入约束
-
 ```****
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 ```
 
-### 核心配置文件
+## 核心配置文件
 
 ```mybatis
 >     	<?xml version="1.0" encoding="UTF-8" ?>
@@ -100,21 +100,20 @@ SqlMapConfig.xml核心配置文件 <br>
 >     </configuration>
 
 ```
-
-### 占位符  和  拼接sql串
-
+## 占位符  和  拼接sql串
 {}表示一个占位符号 <br>
 ${value}表示拼接sql串 注意:里面必须写value
 
-## 插入语句问题  自动增长id 
-
+## 插入语句问题  
+### 自动增长id  
 插入后需要 角色 权限id 不能获取为0 或者null
 解决方案   Select insert id()
 修改映射文件 讲mysql主键自增返回:
-
-## mybatis架构
+# mybatis架构
 
 ![](https://i.imgur.com/u0tBCua.png)
+
+
 
 ## mybatis的dao层开发
 原始Dao开发中存在以下问题： <br>
@@ -188,4 +187,3 @@ map(重点)
 ## 批量扫描方式
 
 <packge name="xxx"  类包前一级
-
