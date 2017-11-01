@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Mybatis部分总结part1
-category: Mybatis
-tags: [Mybatis]
+category: mybatis
+tags: [mybatis]
 ---
 
 # Mybatis
 
-## inc
+## INC
 
  Mybatis 本身是apache的一个开源项目 iBatis 10年从googlecode上
 后13年 迁移到github上  跟名 Mybatis 持久层框架
@@ -52,7 +52,7 @@ C:selectOne和selectList调用时机
 如果返回类型是list对象, 调用selectList方法
 
 
-# 简单使用以及使用流程
+## 简单使用以及使用流程
 ## 1 环境搭建
 
 jar包   以及 配置文件
@@ -109,7 +109,7 @@ ${value}表示拼接sql串 注意:里面必须写value
 插入后需要 角色 权限id 不能获取为0 或者null
 解决方案   Select insert id()
 修改映射文件 讲mysql主键自增返回:
-# mybatis架构
+## mybatis架构
 
 ![](https://i.imgur.com/u0tBCua.png)
 
@@ -172,7 +172,7 @@ result里可以用别名代替  比如cn.wang.user 可以改为user
 
 别名没有大小写区分
 
-## 扫描方式 package
+### 扫描方式 package
 批量扫描  起别名  类包前一个包  别名就是类名 没有大小写区分
 packge 
 
@@ -184,6 +184,6 @@ decimal
 bigdecimal  浮点类型
 map(重点)
 
-## 批量扫描方式
+### 批量扫描方式
 
 <packge name="xxx"  类包前一级
