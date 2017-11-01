@@ -52,7 +52,8 @@ C:selectOne和selectList调用时机
 如果返回类型是list对象, 调用selectList方法
 
 
-# 简单使用以及使用流程
+## 简单使用以及使用流程
+环境以配置
 ## 1 环境搭建
 
 jar包   以及 配置文件
@@ -104,12 +105,11 @@ SqlMapConfig.xml核心配置文件 <br>
 {}表示一个占位符号 <br>
 ${value}表示拼接sql串 注意:里面必须写value
 
-## 插入语句问题  
-### 自动增长id  
+## 插入语句问题  自动增长id  
 插入后需要 角色 权限id 不能获取为0 或者null
 解决方案   Select insert id()
 修改映射文件 讲mysql主键自增返回:
-# mybatis架构
+## mybatis架构
 
 ![](https://i.imgur.com/u0tBCua.png)
 
