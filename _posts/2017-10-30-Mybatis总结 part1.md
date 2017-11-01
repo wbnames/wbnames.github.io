@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mybatis部分总结part1
-category: Spring
-tags: [Spring]
+category: mybatis
+tags: [mybatis]
 ---
  
 ## Mybatis part ONE
@@ -192,7 +192,7 @@ map(重点)
 
 ## 批量扫描方式
 
-<packge name="xxx">  类包前一级
+packge name="xxx"  类包前一级
 
 
 
