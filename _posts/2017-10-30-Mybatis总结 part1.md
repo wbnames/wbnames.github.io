@@ -184,6 +184,6 @@ decimal
 bigdecimal  浮点类型
 map(重点)
 
-### 批量扫描方式
+# 批量扫描方式
 
 <packge name="xxx"  类包前一级
