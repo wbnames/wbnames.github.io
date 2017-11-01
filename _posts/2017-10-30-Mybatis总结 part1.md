@@ -5,10 +5,7 @@ category: Spring
 tags: [Spring]
 ---
 
-
-
-
-# Mybatis part1
+# Mybatis part one
 
 ## Mybatis
 
