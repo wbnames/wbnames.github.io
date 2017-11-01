@@ -7,7 +7,7 @@ tags: [mybatis]
 
 # Mybatis
 
-## INC
+## INCN
 
  Mybatis 本身是apache的一个开源项目 iBatis 10年从googlecode上
 后13年 迁移到github上  跟名 Mybatis 持久层框架
