@@ -5,6 +5,12 @@ category: mybatis
 tags: [mybatis]
 ---
 
+# spring part 1
+
+# spring boot
+
+# spring data redis
+
 # Mybatis
 
 ## INCN
@@ -198,3 +204,5 @@ map(重点)
 ### 批量扫描方式
 
 <packge name="xxx"  类包前一级
+
+### AND
