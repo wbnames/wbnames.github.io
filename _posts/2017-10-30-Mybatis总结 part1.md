@@ -1,15 +1,23 @@
 ---
 layout: post
-title: Mybatis部分总结part1
-category: mybatis
-tags: [mybatis]
+title: Druid基于spring配置
+category: Spring
+tags: [Spring]
 ---
 
-# spring part 1
+# part 1
 
-# spring boot
+## pom 文件
 
-# spring data redis
+<!--druid连接池-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+
+需要版本请去 https://github.com/alibaba/druid 
+查看自己需要的版本
 
 # Mybatis
 
