@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Mybatis部分总结part1
-category: Mybatis
-tags: [Mybatis]
+category: Spring
+tags: [Spring]
 ---
 
-# Mybatis
+# Mybatis part1
 
-## Mybatis part1
+## Mybatis
 
  Mybatis 本身是apache的一个开源项目 iBatis 10年从googlecode上
 后13年 迁移到github上  跟名 Mybatis 持久层框架
