@@ -186,4 +186,12 @@ map(重点)
 
 ## 批量扫描方式
 
-<packge name="xxx"  类包前一级
+<packge name="xxx">  类包前一级
+
+
+
+
+
+
+
+
