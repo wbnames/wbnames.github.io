@@ -5,15 +5,6 @@ category: Spring
 tags: [Spring]
 ---
 
-# Mybatis #
-
-----------
-
-----------
-
-----------
-
-
 ## Mybatis part1 
 
  Mybatis 本身是apache的一个开源项目 iBatis 10年从googlecode上
