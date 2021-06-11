@@ -92,4 +92,4 @@ skill_j2ee_keywords: [Spring, Spring MVC, MyBatis, JSP, RESTful Api, Spring Boot
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, Boostrap, Vue.js]
 skill_mobile_app_keywords: [Android, WebApp]
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
